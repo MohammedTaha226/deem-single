@@ -1,0 +1,105 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?4d7f10275664e6696a3408fff5d4b7ff") format("truetype"),
+url("./flaticon.woff?4d7f10275664e6696a3408fff5d4b7ff") format("woff"),
+url("./flaticon.woff2?4d7f10275664e6696a3408fff5d4b7ff") format("woff2"),
+url("./flaticon.eot?4d7f10275664e6696a3408fff5d4b7ff#iefix") format("embedded-opentype"),
+url("./flaticon.svg?4d7f10275664e6696a3408fff5d4b7ff#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "analytics": "\f101",
+    "money-bag": "\f102",
+    "presentation": "\f103",
+    "calendar": "\f104",
+    "interview": "\f105",
+    "team": "\f106",
+    "system": "\f107",
+    "monitor": "\f108",
+    "timeline": "\f109",
+    "money": "\f10a",
+    "technical-support": "\f10b",
+    "levels": "\f10c",
+    "invoice": "\f10d",
+    "mail": "\f10e",
+    "control-panel": "\f10f",
+    "smartphone": "\f110",
+    "server": "\f111",
+    "right-arrow": "\f112",
+    "left-arrow": "\f113",
+    "web": "\f114",
+);
+
+.flaticon-analytics:before {
+    content: map-get($flaticon-map, "analytics");
+}
+.flaticon-money-bag:before {
+    content: map-get($flaticon-map, "money-bag");
+}
+.flaticon-presentation:before {
+    content: map-get($flaticon-map, "presentation");
+}
+.flaticon-calendar:before {
+    content: map-get($flaticon-map, "calendar");
+}
+.flaticon-interview:before {
+    content: map-get($flaticon-map, "interview");
+}
+.flaticon-team:before {
+    content: map-get($flaticon-map, "team");
+}
+.flaticon-system:before {
+    content: map-get($flaticon-map, "system");
+}
+.flaticon-monitor:before {
+    content: map-get($flaticon-map, "monitor");
+}
+.flaticon-timeline:before {
+    content: map-get($flaticon-map, "timeline");
+}
+.flaticon-money:before {
+    content: map-get($flaticon-map, "money");
+}
+.flaticon-technical-support:before {
+    content: map-get($flaticon-map, "technical-support");
+}
+.flaticon-levels:before {
+    content: map-get($flaticon-map, "levels");
+}
+.flaticon-invoice:before {
+    content: map-get($flaticon-map, "invoice");
+}
+.flaticon-mail:before {
+    content: map-get($flaticon-map, "mail");
+}
+.flaticon-control-panel:before {
+    content: map-get($flaticon-map, "control-panel");
+}
+.flaticon-smartphone:before {
+    content: map-get($flaticon-map, "smartphone");
+}
+.flaticon-server:before {
+    content: map-get($flaticon-map, "server");
+}
+.flaticon-right-arrow:before {
+    content: map-get($flaticon-map, "right-arrow");
+}
+.flaticon-left-arrow:before {
+    content: map-get($flaticon-map, "left-arrow");
+}
+.flaticon-web:before {
+    content: map-get($flaticon-map, "web");
+}

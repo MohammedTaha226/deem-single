@@ -1,0 +1,253 @@
+/*Big Size Screens*/
+@media (max-width: 1200px)
+{
+	.slider .container
+	{
+		padding:0 15px;
+	}
+	
+	.slider .title
+	{
+		margin-top:45px;
+	}
+	
+	.services .item 
+	{
+		padding-left:15px;
+		padding-right:15px;
+	}
+	
+	.services .item .price a
+	{
+		width:50%;
+	}
+	
+	.services .item .title
+	{
+		font-size:17px;
+	}
+	
+	.WhyDim .item .title
+	{
+		font-size:19px;
+	}
+	
+	.clients .client .logoC
+	{
+		margin-top:0;
+	}
+	.footer .infoFooter li:first-of-type
+	{
+		margin-right:10px;
+	}
+	
+	.footer .infoFooter
+	{
+		margin-right:-55px;
+	}
+}
+
+/* small Screens & tablets & Smart phone */
+@media (max-width: 991px) 
+{
+	.header
+	{
+		padding:20px 0;
+	}
+	
+	.header.headerFixed
+	{
+		padding:10px 0;
+	}
+	
+	.header .logo,
+	.header.headerFixed .logo 
+	{
+		margin-top:0;
+	}
+	
+	.header .logo img
+	{
+		width:200px;
+	}
+	
+	.header .menuList,
+	.header .loginBtn
+	{
+		display:none;
+	}
+	
+	.header .openMenu
+	{
+		display:block;
+	}
+	
+	.slider
+	{
+		padding:130px 0;
+		text-align: center;
+	}
+	
+	.slider .btnStyle
+	{
+		margin:0 auto 50px;
+	}
+	
+	.footer .infoFooter
+	{
+		margin-right:0;
+	}
+	
+	.clients .client .details
+	{
+		padding-bottom:0;
+	}
+	
+	.clients .client .details
+	{
+		text-align: center
+	}
+	
+	.clients .client .text,
+	.clients .client .logoC
+	{
+		margin:0 auto 30px;
+	}
+	
+	.clients .owl-nav
+	{
+		position:static
+	}
+	
+	.clients .owl-nav .owl-prev,
+	.clients .owl-nav .owl-next
+	{
+		position:absolute;
+		top:calc(50% - 25px);
+		right:0;
+	}
+	
+	.clients .owl-nav .owl-next
+	{
+		right:auto;
+		left:0;
+	}
+	
+	.clients .owl-dots
+	{
+		display:none;
+	}
+	
+	.statistics .item
+	{
+		border-left:none;
+		border-bottom:1px solid #112246;
+		padding-bottom:30px;
+		margin-bottom:30px;
+	}
+	
+	.footer
+	{
+		padding-bottom:60px;
+		padding-top:50px;
+	}
+	
+	.footer .container
+	{
+		display:block;
+		text-align: center;
+	}
+	
+	.footer .copyrights
+	{
+		margin-top:0;
+		position:absolute;
+		bottom:20px;
+		width:100%;
+		right:0;
+	}
+	
+	.footer .infoFooter
+	{
+		display:inline-block;
+		margin-bottom:20px;
+	}
+	
+	.footer .br
+	{
+		display:block;
+	}
+	
+	.footer .socialFooter
+	{
+		display:inline-block;
+	}
+}
+
+/* Small Screens */
+@media (min-width: 768px) and (max-width: 991px) 
+{
+	
+	
+}
+
+/* Mobile & Tablets */
+@media (max-width: 767px) 
+{
+	.slider .title
+	{
+		font-size:40px;
+	}
+	
+	.slider .text
+	{
+		font-size:20px;
+	}
+	
+	.titleStyle
+	{
+		font-size:35px;
+	}
+}
+
+/* Tablets */
+@media (min-width:480px) and (max-width: 767px)
+{
+
+}
+
+/* Mobile */
+@media (max-width: 479px) 
+{
+	.footer .infoFooter
+	{
+		margin-bottom:0;
+	}
+	
+	.footer .infoFooter li
+	{
+		width:100%;
+		margin-right:0!important;
+		margin-bottom:20px;
+	}
+	
+	.slider .title
+	{
+		font-size:35px;
+	}
+	
+	.titleStyle
+	{
+		font-size:27px;
+	}
+	
+	.plans .plan .planHead .title
+	{
+		font-size:25px;
+	}
+	
+	.plans .plan .planHead .price
+	{
+		font-size:22px;
+	}
+}
